@@ -16,5 +16,3 @@ contract Vault {
         }
     }
 }
-
-0xdfc86b17000000000000000000000000b7257d8ba61bd1b3fb7249dcd9330a023a5f3670
