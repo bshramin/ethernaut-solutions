@@ -1,0 +1,26 @@
+{
+  "name": "ethernaut",
+  "version": "1.0.0",
+  "description": "Solution to Ethernaut challenges.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bshramin/ethernaut.git"
+  },
+  "author": "Amin Bashiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bshramin/ethernaut/issues"
+  },
+  "homepage": "https://github.com/bshramin/ethernaut#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3"
+  }
+}
