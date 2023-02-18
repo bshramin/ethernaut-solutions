@@ -1,6 +1,6 @@
-const { ethers } = require("hardhat");
+import { ethers } from "hardhat";
 
-async function main() {
+async function dex() {
   let dexAddress = "";
   const myAddress = "0x90F79bf6EB2c4f870365E785982E1f101E93b906";
   // Setup phase
@@ -108,7 +108,7 @@ async function main() {
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
-main().catch((error) => {
+dex().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
